@@ -14,7 +14,7 @@ Our app aims to revolutionize the way users interact with their devices by allow
 
 ## Workflow
 
-![alt text](https://docs.google.com/persistent/docs/documents/1LQvhiv6fThSBzShen8Z7DXsK6PkRa4dUZTWnF7xVNXk/drawing/sor1dCHg0ksVr1K0isThpfQ_597.svg?cacheKey=Drawing%7Csor1dCHg0ksVr1K0isThpfQ%7C597%7C624%7C279)
+![alt text](workflow.svg)
 
 ### Speech to text
 
