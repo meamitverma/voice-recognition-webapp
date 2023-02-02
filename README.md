@@ -28,7 +28,7 @@ SpeechRecognition manages the global state of the Web Speech API, exposing funct
 
 ### Processing the query using Openai
 
-Using the [OpenA](https://openai.com/api/)I API allows our app to provide more natural and human-like responses to user queries. OpenAI is a leading provider of artificial intelligence technologies, and their API is trained on a vast dataset of human language, allowing it to understand and respond to a wide range of inputs in a way that feels more like a conversation with a real person. This makes it easier for users to get the information they need and makes the overall experience more enjoyable.
+Using the [OpenAI](https://openai.com/api/) API allows our app to provide more natural and human-like responses to user queries. OpenAI is a leading provider of artificial intelligence technologies, and their API is trained on a vast dataset of human language, allowing it to understand and respond to a wide range of inputs in a way that feels more like a conversation with a real person. This makes it easier for users to get the information they need and makes the overall experience more enjoyable.
 
 ### Text to speech
 
