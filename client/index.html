@@ -10,6 +10,7 @@
   <body>
     <div id="app">
       <div id="chat_container"></div>
+      <h2 id="status">Press the button to start</h2>
       <form>
         <textarea
           name="prompt"
@@ -17,9 +18,12 @@
           rows="1"
           placeholder="Ask query..."
         ></textarea>
-        <button type="submit"><img src="assets/send.svg"></button>
+        <button type="submit" onclick="startRecognition()"><img src="assets/send.svg"></button>
       </form>
     </div>
-    <script type="module" src="script.js"></script>
+
+    
+    <script type="module" src="./scripts/script.js"></script>
+    <script src="./scripts/speech-recognition.js"></script>
   </body>
 </html>
