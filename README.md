@@ -36,7 +36,7 @@ The '[react-speech-kit](https://www.npmjs.com/package/react-speech-kit)' npm mod
 
 ## Development stack (only rough idea)
 
-- Reactjs - Frontend
+- HTML, CSS, JavaScript - Frontend
 - OpenAI API
 - NPM modules
   - react-speech-recognition
