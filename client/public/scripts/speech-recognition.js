@@ -2,14 +2,17 @@ const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogni
 
 const status = document.getElementById("status");
 const output = document.querySelector("textarea");
+const mic = document.getElementById('mic')
 
 startRecognition = () => {
+
+  
   if (SpeechRecognition !== undefined) {
     let recognition = new SpeechRecognition();
 
     recognition.onstart = () => {
       status.innerHTML = `Starting listening, speak in the microphone please 🦻`;
-      output.classList.add("hide");
+      mic.classList.add("listening");
     };
 
     recognition.onspeechend = () => {
@@ -18,12 +21,12 @@ startRecognition = () => {
     };
 
     recognition.onresult = (result) => {
-        output.classList.remove("hide");
+        mic.classList.remove("listening");
     //   output.innerHTML = `I'm ${Math.floor(
     //     result.results[0][0].confidence * 100
     //   )}% certain you just said: <b>${result.results[0][0].transcript}</b>`;
         let text = result.results[0][0].transcript
-        typeText(output, text)
+        typeText(output, text);
     };
 
     recognition.start();
@@ -42,5 +45,5 @@ function typeText(element, text) {
       } else {
         clearInterval(interval);
       }
-    }, 20);
+    }, 60);
   }

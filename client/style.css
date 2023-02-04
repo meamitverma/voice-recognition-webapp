@@ -144,6 +144,11 @@ button {
   background: transparent;
 }
 
+/* Mic */
+.listening {
+  color: #6096B4 !important;
+}
+
 /* Icon */
 span.material-symbols-outlined {
   color: white;
