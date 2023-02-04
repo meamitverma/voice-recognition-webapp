@@ -73,6 +73,7 @@ const handleSubmit = async(e) => {
   const messageDiv = document.getElementById(uniqueId);
 
   loader(messageDiv);
+
 }
 
 
