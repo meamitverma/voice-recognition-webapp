@@ -118,7 +118,6 @@ form {
   margin: 0 auto;
   padding: 10px;
   background: #40414F;
-
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -144,13 +143,29 @@ button {
   background: transparent;
 }
 
+.user-query-wrapper{
+  display: flex;
+  width: 90vw;
+}
+
+#mic-button {
+  /* background-color: #567189; */
+  border: #68696c 2px solid;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 60%;
+  size: 13%;
+  /* width: 100%; */
+  /* flex-basis: auto; */
+}
+
 /* Mic */
 .listening {
-  color: #6096B4 !important;
+  color: #ea4335 !important;
 }
 
 /* Icon */
-span.material-symbols-outlined {
+span.material-symbols-outlined, span.material-symbols-rounded {
   color: white;
 }
 

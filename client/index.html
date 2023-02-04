@@ -11,6 +11,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,0"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="style.css" />
@@ -19,17 +23,23 @@
     <div id="app">
       <div id="chat_container"></div>
       <h2 id="status">Press the button to start</h2>
-      <form>
-        <textarea
-          name="prompt"
-          cols="1"
-          rows="1"
-          placeholder="Ask query..."
-        ></textarea>
-      </form>
-      <button onclick="startRecognition()">
-        <span id="mic" class="material-symbols-outlined"> mic </span>
-      </button>
+      <div class="user-query-wrapper">
+        <form>
+          <textarea
+            name="prompt"
+            cols="1"
+            rows="1"
+            placeholder="Ask query..."
+          ></textarea>
+          <button type="submit" onclick="handelSubmit()">
+            <!-- <img src="./public/assets/send.svg" alt="" srcset=""> -->
+            <span class="material-symbols-rounded"> send </span>
+          </button>
+        </form>
+        <button id="mic-button" onclick="startRecognition()">
+          <span id="mic" class="material-symbols-outlined"> mic </span>
+        </button>
+      </div>
     </div>
 
     <script type="module" src="./public/scripts/script.js"></script>
