@@ -144,6 +144,11 @@ button {
   background: transparent;
 }
 
+/* Icon */
+span.material-symbols-outlined {
+  color: white;
+}
+
 form img {
   width: 30px;
   height: 30px;

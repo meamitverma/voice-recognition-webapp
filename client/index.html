@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./public/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Talk2Me</title>
+    <title>Oral Odyssey</title>
+
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,0"
+    />
+
+    <!-- stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -18,12 +26,13 @@
           rows="1"
           placeholder="Ask query..."
         ></textarea>
-        <button type="submit" onclick="startRecognition()"><img src="assets/send.svg"></button>
+        <button type="submit" onclick="startRecognition()">
+          <span class="material-symbols-outlined"> mic </span>
+        </button>
       </form>
     </div>
 
-    
-    <script type="module" src="./scripts/script.js"></script>
-    <script src="./scripts/speech-recognition.js"></script>
+    <script type="module" src="./public/scripts/script.js"></script>
+    <script src="./public/scripts/speech-recognition.js"></script>
   </body>
 </html>
