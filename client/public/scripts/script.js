@@ -13,7 +13,7 @@ function loader(element) {
     element.textContent += '.';
 
     if(element.textContent === '....') {
-      element.textContent - '';
+      element.textContent = '';
     }
   }, 300);
 }
@@ -99,7 +99,6 @@ const handleSubmit = async(e) => {
   }
 
 }
-
 
 form.addEventListener('submit', handleSubmit);
 form.addEventListener('keyup', (e) => {
