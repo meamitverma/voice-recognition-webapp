@@ -22,7 +22,7 @@
   <body>
     <div id="app">
       <div id="chat_container"></div>
-      <h2 id="status" style="color: whitesmoke;">Press the button to start</h2>
+      <h2 id="status" style="color: whitesmoke">Press the button to start</h2>
       <div class="user-query-wrapper">
         <form>
           <textarea
@@ -33,7 +33,9 @@
           ></textarea>
           <button type="submit" onclick="handleSubmit()">
             <!-- <img src="./public/assets/send.svg" alt="" srcset=""> -->
-            <span class="material-symbols-rounded"> send </span>
+            <span class="material-symbols-rounded" style="color: #acacbe">
+              send
+            </span>
           </button>
         </form>
         <button id="mic-button" onclick="startRecognition()">
@@ -42,7 +44,7 @@
       </div>
     </div>
 
-    <script type="module"  src="./public/scripts/script.js"></script>
+    <script type="module" src="./public/scripts/script.js"></script>
     <script src="./public/scripts/speech-recognition.js"></script>
   </body>
 </html>

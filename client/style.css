@@ -102,7 +102,7 @@ body {
    * The pre-wrap value allows the browser to wrap long lines of text onto multiple lines if necessary.
    * The default value for the white-space property in CSS is "normal". This tells the browser to collapse multiple white space characters into a single space, and to wrap text onto multiple lines as needed to fit within its container.
   */
-  white-space: pre-line; 
+  /* white-space: pre-line;  */
 
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -150,14 +150,16 @@ button {
 
 .user-query-wrapper{
   display: flex;
-  width: 90vw;
+  width: 70%;
+  margin-bottom: 1rem;
+  column-gap: 1rem;
 }
 
 #mic-button {
   /* background-color: #567189; */
   border: #68696c 2px solid;
   width: 5rem;
-  height: 5rem;
+  height: 4.5rem;
   border-radius: 60%;
   size: 13%;
   /* width: 100%; */
