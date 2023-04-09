@@ -1,6 +1,6 @@
 Jatayu Season3
 
-# **Oral Odyssey** : A Speech Recognition and Query Answering App
+# **Talk2Me** : A Speech Recognition and Query Answering App
 
 ![](RackMultipart20230109-1-gvuhja_html_a0243959dbc46b8f.png)
 
